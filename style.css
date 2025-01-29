@@ -1,0 +1,59 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero section container */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Image styling */
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Text container */
+.text-container {
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    padding: 20px;
+}
+
+/* Heading styling */
+.text-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+.text-container p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+.explore-btn {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.explore-btn:hover {
+    background-color: #e65c4b;
+}
